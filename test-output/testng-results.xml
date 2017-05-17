@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[Loggedin successfully!! ]]>
+    </line>
+    <line>
+      <![CDATA[Loggedin successfully!! ]]>
+    </line>
+    <line>
+      <![CDATA[Move into mobile page, No issue found]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="86718" started-at="2017-05-14T13:50:21Z" finished-at="2017-05-14T13:51:47Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="86718" started-at="2017-05-14T13:50:21Z" finished-at="2017-05-14T13:51:47Z">
+      <class name="testCases.Framework003">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.Framework003@1b604f19]" name="setUp" is-config="true" duration-ms="38263" started-at="2017-05-14T19:20:21Z" finished-at="2017-05-14T19:20:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testLoginwithIncorrect()[pri:0, instance:testCases.Framework003@1b604f19]" name="testLoginwithIncorrect" duration-ms="12897" started-at="2017-05-14T19:20:59Z" finished-at="2017-05-14T19:21:12Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Loggedin successfully!! ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testLoginwithIncorrect -->
+        <test-method status="PASS" signature="testLoginwithcorrect()[pri:1, instance:testCases.Framework003@1b604f19]" name="testLoginwithcorrect" duration-ms="4949" started-at="2017-05-14T19:21:12Z" finished-at="2017-05-14T19:21:17Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Loggedin successfully!! ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testLoginwithcorrect -->
+        <test-method status="PASS" signature="testMobile()[pri:2, instance:testCases.Framework003@1b604f19]" name="testMobile" duration-ms="4601" started-at="2017-05-14T19:21:17Z" finished-at="2017-05-14T19:21:21Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Move into mobile page, No issue found]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testMobile -->
+        <test-method status="PASS" signature="testCartAdding()[pri:3, instance:testCases.Framework003@1b604f19]" name="testCartAdding" duration-ms="12465" started-at="2017-05-14T19:21:21Z" finished-at="2017-05-14T19:21:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCartAdding -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.Framework003@1b604f19]" name="tearDown" is-config="true" duration-ms="13500" started-at="2017-05-14T19:21:34Z" finished-at="2017-05-14T19:21:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.Framework003 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
