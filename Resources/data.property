@@ -2,8 +2,8 @@
 BASIC CONFIGURATION
 ==========================================================
 baseurl=http://live.guru99.com/index.php
-username=vineet689@gmail.com
-password=password
+username=
+password=
 email=test@test.com
 businessName=IT
 yearEstablished=30
